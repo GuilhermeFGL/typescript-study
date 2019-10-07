@@ -41,3 +41,9 @@ console.log(aLetter);
 var moreThen;
 moreThen = function (x, y) { return x > y; };
 console.log(moreThen(1, 2));
+var call = function (name) { return console.log("Calling " + name + "..."); };
+console.log(call("Guilherme"));
+// using functions
+var x = 1;
+var y = 2;
+console.log("Is " + x + " less then " + y + "? " + (lessThen(x, y) ? "Yes" : "No"));

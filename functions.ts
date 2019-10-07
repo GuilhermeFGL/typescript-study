@@ -46,3 +46,11 @@ console.log(aLetter);
 let moreThen:(x:number, y:number) => boolean;
 moreThen = (x, y) => x > y;
 console.log(moreThen(1, 2));
+
+let call = (name:string):void => console.log(`Calling ${name}...`);
+console.log(call("Guilherme"));
+
+// using functions
+let x = 1;
+let y = 2;
+console.log(`Is ${x} less then ${y}? ${lessThen(x, y) ? "Yes" : "No"}`);
