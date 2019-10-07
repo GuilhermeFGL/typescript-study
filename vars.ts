@@ -13,6 +13,9 @@ text = "text";
 let object:any; // accept any value
 object = false;
 object = "object";
+let javascript;
+javascript = true;
+javascript = "any";
 
 // arrays
 let a1:number[] = [1, 2, 3];

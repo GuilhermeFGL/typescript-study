@@ -10,6 +10,9 @@ text = "text";
 var object; // accept any value
 object = false;
 object = "object";
+var javascript;
+javascript = true;
+javascript = "any";
 // arrays
 var a1 = [1, 2, 3];
 var a2 = [1, 2, 3];
