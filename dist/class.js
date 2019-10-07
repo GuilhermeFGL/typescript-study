@@ -1,3 +1,4 @@
+"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -11,6 +12,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+exports.__esModule = true;
 var Generic1 = /** @class */ (function () {
     function Generic1(type) {
         this.type = type;
@@ -27,6 +29,7 @@ var Imp1 = /** @class */ (function (_super) {
     };
     return Imp1;
 }(Generic1));
+exports.Imp1 = Imp1;
 var instance1 = new Imp1();
 instance1.log(instance1.type);
 var Generic2 = /** @class */ (function () {
@@ -51,6 +54,7 @@ var Imp2 = /** @class */ (function (_super) {
     };
     return Imp2;
 }(Generic2));
+exports.Imp2 = Imp2;
 var instance2 = new Imp2();
 instance2.log(instance2.getType());
 var instance3 = new Imp2();

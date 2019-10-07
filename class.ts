@@ -62,3 +62,5 @@ instance3.log("instance of interface");
 
 let instance4:Generic2 = new Imp2();
 instance4.printType();
+
+export {Imp1, Imp2};
